@@ -1,0 +1,70 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  height: 50px;
+  background-color: #ff9a4b;
+}
+
+main {
+  width: 960px;
+  margin: 50px auto;
+  display: flex;
+}
+
+.box-list {
+  width: 300px;
+  margin-right: 30px;
+  padding: 10px;
+  position: relative;
+  background-color: #eee;
+}
+
+.box-list:last-child {
+  margin-right: 0;
+}
+/*ここ0にしないと実際よりbox-listのwidth小さくなる
+https://www.ncaq.net/2018/06/14/17/09/30/*/
+
+/*でもこれなんで必要なのかよくわからん*/
+
+.box-img1 {
+  height: 150px;
+  background-image: url(img.1/flow01.png);
+  background-position: bottom;
+  background-size: cover;
+}
+
+.box-img2 {
+  height: 150px;
+  background-image: url(img.1/flow02.png);
+  background-position: bottom;
+  background-size: cover;
+}
+
+.box-img3 {
+  height: 150px;
+  background-image: url(img.1/flow03.png);
+  background-position: bottom;
+  background-size: cover;
+}
+
+.box-no {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #ff9a4b;
+  color: #fff;
+}
+
+.title {
+  margin: 15px 0 5px;
+}
+
+footer {
+  height: 50px;
+  background-color: #aaa;
+}
